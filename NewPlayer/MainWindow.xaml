@@ -27,9 +27,28 @@
                     <StackPanel Orientation="Horizontal"
                                 HorizontalAlignment="Left"
                                 Margin="63 10 0 10">
-                        <Ellipse Fill="#ff6258" Width="10" Height="10"/>
+                        <Button x:Name="btn_Close"
+                                BorderThickness="0"
+                                Click="btn_Close_Click"
+                                Background="Transparent"
+                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                            <Ellipse Fill="#ff6258"
+                                     Width="10"
+                                     Height="10" />
+                        </Button>
+                        
                         <Ellipse Fill="#ffbf2f" Width="10" Height="10" Margin="7 0"/>
-                        <Ellipse Fill="#2acb42" Width="10" Height="10"/>
+
+                        <Button x:Name="btn_Minimize" 
+                                BorderThickness="0"
+                                Click="btn_Minimize_Click"
+                                Background="Transparent"
+                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                            <Ellipse Fill="#2acb42"
+                                     Width="10"
+                                     Height="10" />
+                        </Button>
+                        
                     </StackPanel>
                     
                     <TextBlock Text="LIBRARY" Style="{StaticResource menuTitle}"/>
@@ -156,27 +175,62 @@
                 </Border>
             </StackPanel>
             
-<!--Right Section-->
+            <!--Right Section-->
             <Border Grid.Column="2" CornerRadius="0 40 0 0" Background="White" Margin="0 22 0 0">
                 <StackPanel Margin="30 50 30 0">
                     <TextBlock Text="Popular" Style="{StaticResource titleText}" Margin="0 0 0 10" FontSize="28"/>
                     
-                    <!--Populars--><!--
-                    <uc:PopularSong Title="My House" Time=":" Image="/Images/ts1.jpg"/>
-                    <uc:PopularSong Title="Blank Space" Time=":" Image="/Images/ts1.jpg" IsActive="True"/>
-                    <uc:PopularSong Title="Love Story" Time=":" Image="/Images/ts1.jpg"/>
-                    <uc:PopularSong Title="Red Home" Time=":" Image="/Images/ts1.jpg"/>-->
+                    <!--Populars-->
+                    <uc:PopularSong Title="My House" Time="03:13" Image="/Images/ts1.jpg"/>
+                    <uc:PopularSong Title="Blank Space" Time="04:02" Image="/Images/ts1.jpg" IsActive="True"/>
+                    <uc:PopularSong Title="Love Story" Time="05:04" Image="/Images/ts1.jpg"/>
+                    <uc:PopularSong Title="Red Home" Time="03:27" Image="/Images/ts1.jpg"/>
+                    
                     
                     
                     <TextBlock Text="Playlists" Style="{StaticResource titleText}" Margin="0 30 0 20" FontSize="24"/>
-                    
-                    <!--Playlists-->
-                    <TextBlock Text="Popular" Style="{StaticResource titleText}" Margin="0 0 0 10" FontSize="28"/>
-                    
+
+                    <StackPanel Orientation="Horizontal">
+                        <uc:Playlist Title="Glory" Desc="Cutless" Image="/Images/2.jpg"/>
+                        <uc:Playlist Title="Mitacle" Desc="Flunder" Image="/Images/1.jpg"/>
+                    </StackPanel>
                 </StackPanel>
             </Border>
             
-       
+            <!--Player-->
+            <Border Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Background="#03bf69" CornerRadius="40 0 40 0" Margin="40 0 0 0" >
+                <StackPanel Orientation="Horizontal">
+                    <Ellipse Width="60" Height="60" Margin="30 0 0 0">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/Images/ts1.jpg"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+
+                    <StackPanel VerticalAlignment="Center" Margin="20 0 30 0">
+                        <TextBlock Text="ME" Foreground="White" FontSize="22" FontWeight="Bold"/>
+                        <TextBlock Text="Taylor Swift" Foreground="#9ae5c3" FontSize="18" FontWeight="SemiBold"/>
+                    </StackPanel>
+
+                    <Button Style="{StaticResource playerButton}">
+                        <Icon:PackIconMaterial Kind="SkipPrevious" Style="{StaticResource playerButtonIcon}"/>
+                    </Button>
+                    
+                    <Button Style="{StaticResource playerButton}">
+                        <Icon:PackIconMaterial Kind="Pause" Style="{StaticResource playerButtonIcon}"/>
+                    </Button>
+                    <Button Style="{StaticResource playerButton}">
+                        <Icon:PackIconMaterial Kind="SkipNext" Style="{StaticResource playerButtonIcon}"/>
+                    </Button>
+
+                    <Slider Style="{DynamicResource SliderStyle1}" x:Name="Slider" IsSelectionRangeEnabled="True" VerticalAlignment="Center" Value="5" Width="350" SelectionEnd="{Binding ElementName=Slider, Path=Value}"/>
+
+
+
+                    <Button Style="{StaticResource playerButton}">
+                        <Icon:PackIconMaterial Kind="VolumeMedium" Style="{StaticResource playerButtonIcon}"/>
+                    </Button>
+                </StackPanel>
+            </Border>
         </Grid>
     </Border>
 </Window>

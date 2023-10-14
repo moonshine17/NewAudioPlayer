@@ -26,3 +26,33 @@ C:\Users\furao\source\repos\NewPlayer\NewPlayer\obj\Debug\GeneratedInternalTypeH
 C:\Users\furao\source\repos\NewPlayer\NewPlayer\obj\Debug\NewPlayer_MarkupCompile.lref
 C:\Users\furao\source\repos\NewPlayer\NewPlayer\obj\Debug\UserControls\PopularSong.baml
 C:\Users\furao\source\repos\NewPlayer\NewPlayer\obj\Debug\UserControls\PopularSong.g.cs
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\NewPlayer.exe.config
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\NewPlayer.exe
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\NewPlayer.pdb
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.csproj.AssemblyReference.cache
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\UserControls\PopularSong.baml
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\UserControls\SongItem.baml
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\App.baml
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\UserControls\PopularSong.g.cs
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\UserControls\SongItem.g.cs
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\App.g.cs
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer_MarkupCompile.cache
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer_MarkupCompile.lref
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\MainWindow.baml
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.g.resources
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.Properties.Resources.resources
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.csproj.GenerateResource.cache
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.csproj.CoreCompileInputs.cache
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.csproj.CopyComplete
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.exe
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\NewPlayer.pdb
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\UserControls\Playlist.baml
+C:\Users\furao\OneDrive\Desktop\projects c#\NewPlayer\NewPlayer\obj\Debug\UserControls\Playlist.g.cs

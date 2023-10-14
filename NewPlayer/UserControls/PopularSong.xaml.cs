@@ -27,7 +27,7 @@ namespace NewPlayer.UserControls
         }
 
         public static readonly DependencyProperty TimeProperty = DependencyProperty.Register
-            ("Title", typeof(string), typeof(PopularSong));
+            ("Time", typeof(string), typeof(PopularSong));
 
         public bool IsActive
         {
@@ -36,7 +36,7 @@ namespace NewPlayer.UserControls
         }
 
         public static readonly DependencyProperty IsActiveProperty = DependencyProperty.Register
-            ("Title", typeof(bool), typeof(PopularSong));
+            ("IsActive", typeof(bool), typeof(PopularSong));
 
         public ImageSource Image
         {
@@ -45,7 +45,7 @@ namespace NewPlayer.UserControls
         }
 
         public static readonly DependencyProperty ImageProperty = DependencyProperty.Register
-            ("Title", typeof(ImageSource), typeof(PopularSong));
+            ("Image", typeof(ImageSource), typeof(PopularSong));
 
 
 
